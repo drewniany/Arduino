@@ -1,9 +1,9 @@
 ## Funkcje:
-    - Pomiar temperatury
-    - Pomiar wilgotności
-    - Obliczenie punktu rosy
-    - Sterowanie grzałką teleskopu - włącz / wyłącz
-    - Sygnalizacja błędu odczytu z czujnika DHT
++ Pomiar temperatury
++ Pomiar wilgotności
++ Obliczenie punktu rosy
++ Sterowanie grzałką teleskopu - włącz / wyłącz
++ Sygnalizacja błędu odczytu z czujnika DHT
 
 ## Wymagane Biblioteki:
     - Adafruit Unified Sensor (Adafruit)
