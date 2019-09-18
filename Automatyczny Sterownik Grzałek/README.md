@@ -1,15 +1,15 @@
-##Funkcje:
+## Funkcje:
     - Pomiar temperatury
     - Pomiar wilgotności
     - Obliczenie punktu rosy
     - Sterowanie grzałką teleskopu - włącz / wyłącz
     - Sygnalizacja błędu odczytu z czujnika DHT
 
-##Wymagane Biblioteki:
+## Wymagane Biblioteki:
     - Adafruit Unified Sensor (Adafruit)
     - DHT Sensor Library (Adafruit)
 
-##Uwagi:
+## Uwagi:
     - Program demonstruje działanie automatycznego sterownika grzałek.
     - Czerwona dioda LED sygnalizuje (symuluje) włączenie grzałki
     - Zielona dioda LED sygnalizuje brak roszenia
