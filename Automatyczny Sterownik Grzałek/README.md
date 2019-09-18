@@ -1,6 +1,6 @@
 # Automatyczny Sterownik Grzałek (ASG)
 
-Projekt sterownika grzałek do teleskopów mający za zadanie niedopuszczanie do pojawiania się rosy na elementach optycznych.
+Projekt sterownika grzałek do teleskopu.
 
 ## Funkcje:
  + Pomiar temperatury
