@@ -1,6 +1,6 @@
 double dewPoint(double t, double h)
 {
-  // (1) Saturation Vapor Pressure = ESGG(T)
+  // (1) Ciśnienie pary nasyconej = ESGG(T)
   double RATIO = 373.15 / (273.15 + t);
   double RHS = -7.90298 * (RATIO - 1);
   RHS += 5.02808 * log10(RATIO);
