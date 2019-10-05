@@ -57,23 +57,23 @@ void loop() {
 
   if ((t - d <= 4) && (t - d >= 3)) {                               //  Jeżeli różnica t-td jest mniejsza lub równa 4 i większa lub równa 3
     digitalWrite(LED_R, HIGH);                                      
-    analogWrite(PWM_1, PWR_1_1);                                         //  PWM 1 na 10%
-    analogWrite(PWM_2, PWR_2_1);                                         //  PWM 2 na 10%
+    analogWrite(PWM_1, PWR_1_1);
+    analogWrite(PWM_2, PWR_2_1);
   }
   else if ((t - d < 3) && (t - d >= 2)) {                           //  Jeżeli różnica t-td jest mniejsza 3 i większa lub równa 2
     digitalWrite(LED_R, HIGH);
-    analogWrite(PWM_1, PWR_1_2);                                         //  PWM 1 na 30%
-    analogWrite(PWM_2, PWR_2_2);                                         //  PWM 2 na 30%
+    analogWrite(PWM_1, PWR_1_2);
+    analogWrite(PWM_2, PWR_2_2);
   }
   else if ((t - d < 2) && (t - d > 1)) {                            //  Jeżeli różnica t-td jest mniejsza 2 i większa 1
     digitalWrite(LED_R, HIGH);
-    analogWrite(PWM_1, PWR_1_3);                                        //  PWM 1 na 50%
-    analogWrite(PWM_2, PWR_2_3);                                        //  PWM 2 na 50%
+    analogWrite(PWM_1, PWR_1_3);
+    analogWrite(PWM_2, PWR_2_3);
   }
   else if (t - d <= 1) {                                             //  Jeżeli różnica t-td jest mniejsza lub równa 1
     digitalWrite(LED_R, HIGH);
-    analogWrite(PWM_1, PWR_1_4);                                        //  PWM 1 na 100%
-    analogWrite(PWM_2, PWR_2_4);                                        //  PWM 2 na 100%
+    analogWrite(PWM_1, PWR_1_4);
+    analogWrite(PWM_2, PWR_2_4);
   }
   else {
     digitalWrite(LED_R, LOW);                                        //  Wyłącz czerwoną diodę LED - grzałka nie pracuje
